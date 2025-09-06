@@ -99,7 +99,7 @@ DesafioAccenture/
 ### 1. Clone the repository
 ```bash
 cd your-project-folder-path
-git clone --
+git clone https://github.com/rafael-de-paiva/desafio-demoqa.git
 ```
 
 ### 2. Install dependencies
