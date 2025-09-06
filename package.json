@@ -1,0 +1,24 @@
+{
+  "name": "desafioaccenturepart2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:all": "npx cypress run",
+    "test:drag_drop": "npx cypress run --spec 'cypress/e2e/features/drag_drop.feature'",
+    "test:element_register": "npx cypress run --spec 'cypress/e2e/features/element_register.feature'",
+    "test:popup_window": "npx cypress run --spec 'cypress/e2e/features/popup_window.feature'",
+    "test:progress_bar": "npx cypress run --spec 'cypress/e2e/features/progress_bar.feature'",
+    "test:submit_form": "npx cypress run --spec 'cypress/e2e/features/submit_form.feature'"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^15.1.0"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^23.0.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.5",
+    "@faker-js/faker": "^10.0.0"
+  }
+}
