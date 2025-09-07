@@ -4,6 +4,8 @@
 
 Tested website: [https://demoqa.com/](https://demoqa.com/)
 
+![Project Badge](https://github.com/rafael-de-paiva/desafio-demoqa/actions/workflows/cypress-pipeline.yml/badge.svg)
+
 ---
 
 ## 🚀 Technologies and Tools Used
